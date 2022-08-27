@@ -11,8 +11,8 @@ const {
   readTeacherInfo,
   updateStudent,
   updateTeacher,
-  dbinitialize
-} = require ("./database.js");
+  
+} = from ("./database.js");
 
 const app = express();
 const bodyParser = require  ("body-parser");
